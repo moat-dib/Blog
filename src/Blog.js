@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import { Route, Routes } from './react-router-dom';
+import { Header } from './components/Headeer/Header';
+import { Route, Routes } from 'react-router-dom';
 import styled from 'styled-components';
 const Content = styled.div`
 	padding: 120px 0;
@@ -8,11 +9,20 @@ const Content = styled.div`
 const H2 = styled.h2`
 	text-align: center;
 `;
-const Header = () => <div>HEADER</div>;
+//const Header = () => <div>HEADER</div>;
+const AppColumn = styled.div`
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 1000px;
+	margin: 0 auto;
+	height: 1080px;
+	background-color: #fff;
+`;
 const Footer = () => <div>FOOTER</div>;
 export const Blog = () => {
 	return (
-		<>
+		<AppColumn>
 			<Header />
 			<Content>
 				<H2>PAge Content</H2>
@@ -27,6 +37,6 @@ export const Blog = () => {
 				</Routes>
 			</Content>
 			<Footer />
-		</>
+		</AppColumn>
 	);
 };
