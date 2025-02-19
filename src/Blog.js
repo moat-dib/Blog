@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { Header } from './components/Headeer/Header';
+import { Footer } from './components/Footer/Footer';
 import { Route, Routes } from 'react-router-dom';
 import styled from 'styled-components';
 const Content = styled.div`
@@ -17,9 +18,9 @@ const AppColumn = styled.div`
 	width: 1000px;
 	margin: 0 auto;
 	height: 1080px;
-	background-color: #fff;
+	background-color: #bbb;
 `;
-const Footer = () => <div>FOOTER</div>;
+
 export const Blog = () => {
 	return (
 		<AppColumn>
