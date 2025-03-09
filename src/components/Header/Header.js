@@ -9,21 +9,28 @@ const MyHeader = styled.header`
 	position: fixed;
 	top: 0px;
 `;
+const Annotation = styled.div`
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-style: italic;
+	font-size: 18px;
+	margin-right: 25%;
+	margin-top: -15px;
+`;
 const HeaderContainer = (className) => (
-	<header className={className}>
+	<MyHeader className={className}>
 		<div className={styles.headerList}>
-			<Logo className={styles.headerBlock1} />
+			<Logo />
 
-			<div className={styles.headerBlock3}>
+			<Annotation>
 				<p>
 					Веб-технологии <br />
 					Написание кода <br />
 					Разбор ошибок
 				</p>
-			</div>
+			</Annotation>
 
 			<ControlPanel />
 		</div>
-	</header>
+	</MyHeader>
 );
 export const Header = styled(HeaderContainer)``;
