@@ -33,4 +33,10 @@ const LogoContainer = ({ className }) => (
 );
 export const Logo = styled(LogoContainer)`
 	display: flex;
+	font-size: 48px;
+	font-weight: bold;
+
+	margin-right: 12%;
+	margin-bottom: 0;
+	padding-bottom: 0;
 `;
