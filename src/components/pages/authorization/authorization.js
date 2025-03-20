@@ -9,7 +9,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useForm } from 'react-hook-form';
 import { selectUserRole } from '../../../selectors';
 import { setUser } from '../../../actions';
-import { server } from '../../../bff/server';
+import { server } from '../../../bff';
 import { ROLE } from '../../../bff/constants';
 const authSchema = yup.object().shape({
 	login: yup

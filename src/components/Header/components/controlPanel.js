@@ -15,11 +15,6 @@ const RightAlligned = styled.div`
 	align-items: center;
 `;
 
-const StyledIcon = styled.div`
-	&:hover {
-		cursor: pointer;
-	}
-`;
 const StyledLogoutIcon = styled.div`
 	&:hover {
 		cursor: pointer;
@@ -36,13 +31,13 @@ const ControlPanelContainer = ({ className }) => {
 	const navigate = useNavigate();
 	const dispatch = useDispatch();
 	const roleId = useSelector(selectUserRole);
-	console.log(roleId);
 	const login = useSelector(selectUserLogin);
 	const session = useSelector(selectUserSession);
+
 	return (
 		<div id={className}>
 			<RightAlligned>
-				{roleId === ROLE.GUEST ? (
+				{roleId === ROLE.GUEST || roleId === undefined ? (
 					<Button width="100px">
 						<Link to="/login">Login</Link>
 					</Button>
@@ -57,9 +52,7 @@ const ControlPanelContainer = ({ className }) => {
 				)}
 			</RightAlligned>
 			<RightAlligned>
-				<StyledIcon onClick={() => navigate(-1)}>
-					<Icon id="fa-backward" margin="10px 0 0 0" />
-				</StyledIcon>
+				<Icon id="fa-backward" margin="10px 0 0 0" onClick={() => navigate(-1)} />
 				<Link to="/post">
 					<Icon id="fa-file-text-o" margin="10px 0 0 10px" />
 				</Link>

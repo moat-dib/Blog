@@ -1,4 +1,4 @@
-import { generateDate } from './generate-date';
+import { generateDate } from '../utils/generate-date';
 export const addUser = (LoginToAdd, passwordToAdd) =>
 	fetch('http://localhost:3005/users', {
 		method: 'POST',
@@ -7,6 +7,6 @@ export const addUser = (LoginToAdd, passwordToAdd) =>
 			login: LoginToAdd,
 			password: passwordToAdd,
 			registered_at: generateDate(),
-			role_id: 2,
+			role_id: 0,
 		}),
 	}).then((ceratedUser) => ceratedUser.json());

@@ -1,102 +1,32 @@
 {
   "users": [
     {
-      "id": "001",
-      "login": "anton",
-      "password": "qwerty",
-      "registered_at": "2050-01-22",
-      "role_id": 0
-    },
-    {
       "id": "670b",
       "login": "ivan",
       "password": "123123",
       "registered_at": "2045-10-22 01:08",
+      "role_id": 0
+    },
+    {
+      "id": "fd4b",
+      "login": "sssddd",
+      "password": "333222",
+      "registered_at": "2063-06-22 18:17",
+      "role_id": 1
+    },
+    {
+      "id": "1f15",
+      "login": "rtrtrt",
+      "password": "rtrtrt",
+      "registered_at": "2034-04-08 07:06",
       "role_id": 2
     },
     {
-      "id": "15bd",
-      "login": "ivan2",
-      "password": "qwqwqw",
-      "registered_at": "2057-10-05 08:02",
-      "role_id": 2
-    },
-    {
-      "id": "26fc",
-      "login": "ivan3",
-      "password": "121212",
-      "registered_at": "2057-11-20 04:14",
-      "role_id": 2
-    },
-    {
-      "id": "5abb",
-      "login": "ivan4",
-      "password": "222222",
-      "registered_at": "2046-04-12 14:25",
-      "role_id": 2
-    },
-    {
-      "id": "b7af",
-      "login": "ivan5",
-      "password": "222222",
-      "registered_at": "2035-12-17 21:55",
-      "role_id": 2
-    },
-    {
-      "id": "dmdfmdf",
-      "login": "ivan55",
-      "password": "121212",
-      "registered_at": "2064-02-28 04:50",
-      "role_id": 2
-    },
-    {
-      "id": "dmdfmdf",
-      "login": "ivan6",
-      "password": "222222",
-      "registered_at": "2062-11-20 15:48",
-      "role_id": 2
-    },
-    {
-      "id": "e617",
-      "LoginToAdd": "ivan7",
-      "passwordToAdd": "123123",
-      "registered_at": "2064-09-17 05:42",
-      "role_id": 2
-    },
-    {
-      "id": "4991",
-      "LoginToAdd": "ivan8",
-      "passwordToAdd": "121212",
-      "registered_at": "2064-06-30 01:51",
-      "role_id": 2
-    },
-    {
-      "id": "3825",
-      "LoginToAdd": "ivan9",
-      "passwordToAdd": "121212",
-      "registered_at": "2038-02-26 00:14",
-      "role_id": 2
-    },
-    {
-      "id": "33de",
-      "LoginToAdd": "ivan11",
-      "passwordToAdd": "121212",
-      "registered_at": "2064-08-21 12:17",
-      "role_id": 2
-    },
-    {
-      "id": "148b",
-      "LoginToAdd": "ivan12",
-      "passwordToAdd": "121212",
-      "registered_at": "2040-02-15 01:06",
-      "role_id": 2
-    },
-    {
-      "id": "2358",
-      "login": "ivan13",
-      "password": "121212",
-      "registered_at": "2061-02-20 13:49",
-      "role_id": 2
+      "id": "5d2e",
+      "login": "sdsdsd",
+      "password": "sdsdsd",
+      "registered_at": "2052-10-20 01:35",
+      "role_id": 0
     }
   ],
   "roles": [
